@@ -1,4 +1,5 @@
 import ElectricBorder from "./components/card"
+import SplashCursor from "./components/cursor2"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <div>
       <h1>Hello, World!</h1>
+      <SplashCursor />
    <ElectricBorder
   color="#00ffff"
   speed={1}
