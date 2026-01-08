@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-*{
-  margin: 0;
-  padding: 0;
-}
 /* graph structure */
 body{
   min-height: 100vh;
@@ -13,22 +9,6 @@ body{
   linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
   linear-gradient(90deg,rgba(255, 255, 255, 0.08) 1px, transparent 1px)
   ;
-  background-size: 15px 15px;
+  background-size: 25px 25px;
 }
 
-.cursor-effect{
-  position: fixed;
-  width: 10px;
-  height: 10px;
-  background: radial-gradient(circle,gold,transparent);
-  border-radius: 50%;
-  pointer-events: none;
-  animation: pop 0.8s ease forwards;
-}
-
-@keyframes pop {
- to {
-  transform: scale(0);
-  opacity: 0;
- } 
-}
