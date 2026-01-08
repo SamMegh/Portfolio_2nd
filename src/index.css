@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* graph structure */
+body{
+  min-height: 100vh;
+  color: white;
+  background-color: #0f0f0f;
+  background-image: 
+  linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+  linear-gradient(90deg,rgba(255, 255, 255, 0.08) 1px, transparent 1px)
+  ;
+  background-size: 15px 15px;
+}
+
+.cursor-effect{
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle,gold,transparent);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: pop 0.8s ease forwards;
+}
+
+@keyframes pop {
+ to {
+  transform: scale(0);
+  opacity: 0;
+ } 
+}
