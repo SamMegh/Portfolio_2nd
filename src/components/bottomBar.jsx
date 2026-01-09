@@ -12,7 +12,7 @@ function BottomBar() {
   }, []);
 
   return (
-    <section className="flex justify-between p-5">
+    <section className="flex justify-between px-5 py-3 h-full items-end">
       {/* Time & Date */}
       <div className="text-[10px] space-y-1">
         <div className="flex gap-10">
