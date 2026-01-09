@@ -13,8 +13,8 @@ function MiddleSection({ className }) {
       <section className="ml-2 relative ">
         <div className="w-[75%] rounded-full overflow-hidden border-r-4 border-b-6 border-cyan-300 ">
         <img
-          className=" w-full aspect-square object-cover"
-          src="./Profile Photo.jpg"
+          className=" min-w-full aspect-square object-cover"
+          src="./profile.png"
           alt="profile"
         />
         
