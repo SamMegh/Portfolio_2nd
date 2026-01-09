@@ -13,3 +13,8 @@ body{
   background-size: 25px 25px;
 }
 
+
+@theme{
+  --font-Merienda: 'Merienda', cursive;
+  --font-Anton: "Anton","Bebas Neue", sans-serif;
+}

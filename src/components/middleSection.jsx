@@ -3,7 +3,7 @@ function MiddleSection({ className }) {
 <div className={`${className} h-full flex items-center justify-start `}>
       
       {/* Text */}
-      <div className="flex flex-col items-center font-bold leading-[0.85] text-[clamp(4rem,15.5vw,16rem)]">
+      <div className="flex flex-col font-Anton items-center leading-none text-[clamp(4rem,32vh,34vh)]">
         <h1>S</h1>
         <h1>A</h1>
         <h1>M</h1>
@@ -19,7 +19,7 @@ function MiddleSection({ className }) {
         />
         
       </div>
-      <div className="absolute rotate-28 text-cyan-300 font-bold tracking-[4px] -bottom-4 text-6xl">
+      <div className="absolute rotate-34 text-cyan-300 font-Anton tracking-[4px] -bottom-4 text-6xl">
             Megh
         </div>
       </section>

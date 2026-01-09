@@ -3,12 +3,11 @@ import blogs from '../assets/dataFiles/Blog.Data.json'
 
 function BlogSection({ className }) {
   return (
-    <div className={`${className} py-6 h-full px-6`}>
+    <div className={`${className} py-6 flex items-center  h-full px-6`}>
         {/* main section */}
         <div className='w-[70%]'>
 
-        
-      <h2 className='text-3xl mx-auto mb-4 font-bold tracking-[4px] w-fit'>
+      <h2 className='text-4xl font-Merienda mx-auto mb-3 font-bold tracking-[5px] w-fit'>
         BLOGS
       </h2>
       {/* blog section */}
