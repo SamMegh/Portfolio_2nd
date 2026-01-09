@@ -1,19 +1,24 @@
-function MiddleSection() {
+function MiddleSection({ className }) {
   return (
-    <div className="h-full relative flex justify-center ">
-      <div className="relative w-[40%]">
-        <div className="absolute flex flex-col -top-12 text-[17vw] items-center font-bold leading-[0.8]">
-           <h1>S</h1>
+<div className={`${className} h-full flex items-center justify-center overflow-hidden`}>
+      
+      {/* Text */}
+      <div className="flex flex-col items-center font-bold leading-[0.85] text-[clamp(6rem,12vw,14rem)]">
+        <h1>S</h1>
         <h1>A</h1>
-        <h1>M</h1> 
-        </div>
-        
+        <h1>M</h1>
       </div>
-      {/* image section */}
-      <div className="w-[50%]">
-        <img className="rounded-full w-full object-cover"  src="./Profile Photo.jpg" alt="profile" />
+
+      {/* Image */}
+      <div className="w-1/3 max-w-xs">
+        <img
+          className="rounded-full w-full aspect-square object-cover"
+          src="./Profile Photo.jpg"
+          alt="profile"
+        />
       </div>
+
     </div>
-  )
+  );
 }
-export default MiddleSection
+export default MiddleSection;

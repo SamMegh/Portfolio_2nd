@@ -1,22 +1,24 @@
 import BlogSection from "./components/blogSection";
-import BottomBar from "./components/bottomBar"
-import SplashCursor from "./components/cursor"
+import BottomBar from "./components/bottomBar";
+import SplashCursor from "./components/cursor";
 import MiddleSection from "./components/middleSection";
-import UpperSection from "./components/upperSection"
+import RightSection from "./components/rightSection";
+import UpperSection from "./components/upperSection";
 
 function App() {
   return (
     <div className="h-screen flex flex-col">
       <section className="h-[10%]">
-      <UpperSection />
+        <UpperSection />
       </section>
-      <section className="h-[80%] flex ">
+      <section className="flex-1 h-[80%] flex w-full">
+  <BlogSection className="w-3/12 shrink-0 border border-red-500" />
+  <MiddleSection className="w-6/12 shrink-0 border border-green-500" />
+  <RightSection className="w-3/12 shrink-0 border border-blue-500" />
+</section>
 
-      <BlogSection  className="w-[20%] overflow-hidden" />
-      <MiddleSection className="w-[60%]" />
-      </section>
       <section className="h-[10%] overflow-hidden">
-      <BottomBar className="mt-auto" />
+        <BottomBar className="mt-auto" />
       </section>
     </div>
   );

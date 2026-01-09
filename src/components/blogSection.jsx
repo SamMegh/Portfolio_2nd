@@ -1,12 +1,18 @@
 import blogs from '../assets/dataFiles/Blog.Data.json'
 
 
-function BlogSection() {
+function BlogSection({ className }) {
   return (
-    <div className='px-10 py-6 w-[20%] h-full overflow-hidden'>
+    <div className={`${className} py-6 h-full px-6`}>
+        {/* main section */}
+        <div className='w-[70%]'>
+
+        
       <h2 className='text-3xl mx-auto mb-4 font-bold tracking-[4px] w-fit'>
         BLOGS
       </h2>
+      {/* blog section */}
+      <section >
       {blogs.slice(0,2).map((blog, index) => (
         <div key={index} className=' p-2 cursor-pointer'>
             <div className='aspect-video overflow-hidden rounded-2xl mb-0.5'>
@@ -16,11 +22,13 @@ function BlogSection() {
             <p className='text-[10px] text-gray-300 mb-1 max-h-7.5 line-clamp-2'>{blog.description}</p>
         </div>
       ))}
+      </section>
       {blogs.length > 2 && (
         <div className='text-center '>
           <a href="/blogs" className='text-xs font-medium rounded-3xl border border-white px-10 py-3 inline-block hover:border-cyan-300 hover:text-cyan-300'>See All Blogs <span className=''>&gt;</span> </a>
         </div>
       )}
+      </div>
     </div>
   )
 }
