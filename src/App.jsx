@@ -1,18 +1,14 @@
+import BottomBar from "./components/bottomBar"
 import SplashCursor from "./components/cursor"
 import UpperSection from "./components/upperSection"
 
 function App() {
-
-
   return (
-    <div>
-      {/* <SplashCursor /> */}
-
-
+    <div className="h-screen flex flex-col">
       <UpperSection />
- 
+      <BottomBar className="mt-auto" />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
