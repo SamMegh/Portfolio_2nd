@@ -1,0 +1,35 @@
+[
+    {
+        "thumbnail": "blog-img.png",
+        "title": "Vite: Next Generation Frontend Tooling",
+        "description": "Vite is a modern frontend build tool that offers fast development and optimized production builds. It leverages native ES modules in the browser for instant server start and uses Rollup for efficient bundling.",
+        "link": "https://vitejs.dev/",
+        "images": [
+            "image1.png",
+            "image2.png",
+            "image3.png"
+        ]
+    },
+    {
+        "thumbnail": "blog-img.png",
+        "title": "Vite: Next Generation Frontend Tooling",
+        "description": "Vite is a modern frontend build tool that offers fast development and optimized production builds. It leverages native ES modules in the browser for instant server start and uses Rollup for efficient bundling.",
+        "link": "https://vitejs.dev/",
+        "images": [
+            "image1.png",
+            "image2.png",
+            "image3.png"
+        ]
+    },
+    {
+        "thumbnail": "blog-img.png",
+        "title": "Vite: Next Generation Frontend Tooling",
+        "description": "Vite is a modern frontend build tool that offers fast development and optimized production builds. It leverages native ES modules in the browser for instant server start and uses Rollup for efficient bundling.",
+        "link": "https://vitejs.dev/",
+        "images": [
+            "image1.png",
+            "image2.png",
+            "image3.png"
+        ]
+    }
+]
