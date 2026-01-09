@@ -1,6 +1,7 @@
 import BlogSection from "./components/blogSection";
 import BottomBar from "./components/bottomBar"
 import SplashCursor from "./components/cursor"
+import MiddleSection from "./components/middleSection";
 import UpperSection from "./components/upperSection"
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
       <section className="h-[10%]">
       <UpperSection />
       </section>
-      <section className="h-[80%] overflow-hidden">
+      <section className="h-[80%] flex ">
 
-      <BlogSection/>
+      <BlogSection  className="w-[20%] overflow-hidden" />
+      <MiddleSection className="w-[60%]" />
       </section>
       <section className="h-[10%] overflow-hidden">
       <BottomBar className="mt-auto" />
