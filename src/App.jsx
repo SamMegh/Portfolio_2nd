@@ -12,9 +12,9 @@ function App() {
         <UpperSection />
       </section>
       <section className="flex-1 h-[80%] flex w-full">
-  <BlogSection className="w-3/12 shrink-0  " />
-  <MiddleSection className="w-6/12 shrink-0 " />
-  <RightSection className="w-3/12 shrink-0 " />
+  <BlogSection className="w-3/12 shrink-0 border border-red-500" />
+  <MiddleSection className="w-5/12 shrink-0 border border-green-500" />
+  <RightSection className="w-4/12 shrink-0 border border-blue-500" />
 </section>
 
       <section className="h-[10%] overflow-hidden">

@@ -11,7 +11,7 @@ function MiddleSection({ className }) {
 
       {/* Image */}
       <section className="ml-2 relative ">
-        <div className="w-[75%] rounded-full overflow-hidden border-r-4 border-b-6 border-cyan-300 ">
+        <div className="w-full rounded-full overflow-hidden border-r-4 border-b-6 border-cyan-300 ">
         <img
           className=" min-w-full aspect-square object-cover"
           src="./profile.png"
@@ -19,7 +19,7 @@ function MiddleSection({ className }) {
         />
         
       </div>
-      <div className="absolute rotate-34 text-cyan-300 font-Anton tracking-[4px] -bottom-4 text-6xl">
+      <div className="absolute rotate-34 text-cyan-300 font-Anton tracking-[6px] -bottom-4 text-6xl">
             Megh
         </div>
       </section>
